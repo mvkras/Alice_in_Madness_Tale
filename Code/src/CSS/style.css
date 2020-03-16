@@ -1,0 +1,77 @@
+
+*{
+    /* Ограничиваем блок наш по размерам 300 на 300 */
+    box-sizing:border-box;
+}
+
+body{
+    background-color: khaki;
+}
+h2{
+    color: 	red;
+    text-align: center;
+}
+h1,h3 {
+    text-align: center;
+}
+
+
+
+.About{  /* Класс (обращаемся к содержанию и его стилизуем */
+    color:blue;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    color:red;
+}
+.chapter{
+    text-align: center;
+    color:red;
+}
+.upper{
+    text-transform: uppercase;
+}
+.marker{
+    color: red;
+}
+.strong{
+    font-weight: 700;
+}
+.underline{
+    text-decoration-line: underline;
+}
+
+#begin{
+    color:violet;
+    text-align: center;
+}
+span{
+    font-style: italic;
+}
+
+.box{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 300px;
+    background-color:whitesmoke;
+    padding: 20px; /* Внутренний отступ (отступ текста) */
+    border-width: 5px; /* Ширина границы */
+    border-style: dashed; /* Сплошная непрерывная линия */
+    border-color: violet; /* Цвет границы */
+    margin: 20px; /* Отступ внешней границы (самих блоков) со всех сторон */
+}
+img{ /* Уменьшаем картинку и делаем ее блоком, вместо строчкой, для перемещения */
+    display: block;
+    width:250px;
+    margin: 0 auto; /* Выравниваем по центру */
+    
+}
+.pink{
+    color:violet;
+}
+nav{
+    position: relative; /* С помощью relative можно двигать объекты как угодно по системе координат */
+    left:830px; /* Отступ слевого края на право */
+}
